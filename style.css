@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: anta, sans-serif;
+}
+
+body {
+  background-image: url("./images/animal-8420313_1920.jpg");
+  background-size: cover;
+}
+
+.main {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading {
+  font-size: 5em;
+  margin-top: 20px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+input {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 100px;
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+label {
+  font-size: 2rem;
+}
